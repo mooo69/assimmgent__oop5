@@ -92,7 +92,7 @@ class Program
 
     static Point3D ReadPoint(string name)
     {
-        int x, y, z;
+        int x, y, z; 
 
         Console.WriteLine($"Enter coordinates for {name}:");
 
