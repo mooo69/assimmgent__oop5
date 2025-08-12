@@ -92,7 +92,7 @@ class Program
 
     static Point3D ReadPoint(string name)
     {
-        int x, y, z;
+        int x, y, z; 
 
         Console.WriteLine($"Enter coordinates for {name}:");
 
@@ -110,4 +110,24 @@ class Program
     }
 }
 //Second Project
+
+
+class Maths
+{
+    public static double Add(double a, double b) => a + b;
+    public static double Subtract(double a, double b) => a - b;
+    public static double Multiply(double a, double b) => a * b;
+    public static double Divide(double a, double b) => b != 0 ? a / b : double.NaN;
+}
+
+class Program2
+{
+    static void Main()
+    {
+        Console.WriteLine("Add: " + Maths.Add(10, 5));
+        Console.WriteLine("Subtract: " + Maths.Subtract(10, 5));
+        Console.WriteLine("Multiply: " + Maths.Multiply(10, 5));
+        Console.WriteLine("Divide: " + Maths.Divide(10, 5));
+    }
+}
 
