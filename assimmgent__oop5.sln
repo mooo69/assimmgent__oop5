@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assimmgent__oop5", "assimmgent__oop5\assimmgent__oop5.csproj", "{0DCE122A-D883-42C0-B897-25F9E56C4A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DCE122A-D883-42C0-B897-25F9E56C4A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCE122A-D883-42C0-B897-25F9E56C4A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCE122A-D883-42C0-B897-25F9E56C4A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCE122A-D883-42C0-B897-25F9E56C4A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2089A161-05EF-4CB3-8C3D-4A209FE4E460}
+	EndGlobalSection
+EndGlobal
